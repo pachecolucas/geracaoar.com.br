@@ -13,6 +13,12 @@ export default function Index() {
         <Item target="_blank" href="http://metanoia.geracaoar.com.br/">
           Metanoia
         </Item>
+        <Item target="_blank" href="http://numerologo.epanel.com.br/">
+          Numerólogo
+        </Item>
+        <Item target="_blank" href="http://prosperacao.com.br/">
+          Prosperação
+        </Item>
       </Items>
     </Wrapper>
   );
