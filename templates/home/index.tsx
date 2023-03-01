@@ -110,7 +110,7 @@ const Item = styled.a`
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   &:hover {
     background: white;
     color: black;
