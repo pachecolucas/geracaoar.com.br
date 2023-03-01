@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle<{
+  backgroundColor: string | undefined;
+}>`
 
   /* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); */
 
@@ -28,7 +30,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #000000dd;
+    background-color: ${(props) =>
+      props.backgroundColor ? props.backgroundColor : "#000000dd"};
     /* font-family: 'Noto Serif', serif; */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -45,10 +48,15 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const BasicLayout = ({ children }: { children: any }) => {
+type Props = {
+  children: any;
+  backgroundColor?: string;
+};
+
+const BasicLayout = ({ children, backgroundColor }: Props) => {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle backgroundColor={backgroundColor} />
       {children}
     </>
   );
