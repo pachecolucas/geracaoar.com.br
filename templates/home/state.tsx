@@ -7,10 +7,11 @@ const STATE = {
         "Palestra para ABPp em 2016 usando arquétipos dos 4 Elementos para explicar a jornada da Vida Acadêmica e Profissional",
     },
     {
-      title: "Conhecimentos Esotéricos",
+      title: "Os 4 Elementos",
+      subtitle: "E a Nova Ordem",
       href: "https://www.youtube.com/watch?v=PosvOTlZJUA&list=PLhMbqdk2mNpf6ixlzBeYXxOsVTzTCpvVy&index=2",
       description:
-        "Uma Introdução aos Conhecimentos Esotérico através de aulas gravadas para turma de pós-graduação do Anicha em Blumenau no ano de 2020",
+        "Entenda o significado dos 4 Elementos (Terra, Água, Ár e Fogo) e dos números de 1 a 4 neste conjunto de aulas gravadas para turma de pós-graduação em Terapias Transpessoais Integrativas em 2020",
     },
     {
       title: "Entrevista Numerologia",
@@ -20,14 +21,23 @@ const STATE = {
     },
     {
       title: "Gerações",
+      subtitle: "E os 4 Elementos",
       href: "/geracoes-e-os-quatro-elementos",
       description:
         "Como as Gerações obedecem ao ritmo da Nova Ordem dos 4 Elementos",
     },
     {
       title: "Setênios",
+      subtitle: "As fases da vida a cada 7 anos",
       href: "https://setenios.geracaoar.com.br/",
       description: "Aplicativo online",
+    },
+    {
+      title: "Numerologia",
+      subtitle: "O significado dos números",
+      href: "/numerologia",
+      description:
+        "Síntese das fases da vida numa visão numerológica e sua relações com os 4 Elementos",
     },
     {
       title: "Numerólogo",
@@ -35,12 +45,8 @@ const STATE = {
       description: "Sistema online para cálculo numerológico",
     },
     {
-      title: "Numerologia e a Jornada Interior",
-      href: "/numerologia",
-      description: "Síntese das fases da vida numa visão numerológica",
-    },
-    {
-      title: "Astrologia e a Auto-liderança",
+      title: "Auto-liderança e a Astrologia",
+      subtitle: "Como nasce o Líder",
       href: "/astrologia-e-auto-lideranca",
       description:
         "O nascimento do Líder e suas fases conforme o ritmo do zodíaco",
