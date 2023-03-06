@@ -11,7 +11,8 @@ export default function Index() {
       <Items>
         {STATE.items.map((item, i) => (
           <Item key={i} target="_blank" href={item.href}>
-            {item.title}
+            <h2>{item.title}</h2>
+            <h3>{item.subtitle}</h3>
             <small>{item.description}</small>
           </Item>
         ))}
@@ -50,6 +51,12 @@ const Item = styled.a`
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1em;
+  }
   &:hover {
     background: white;
     color: black;
