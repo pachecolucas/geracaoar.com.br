@@ -83,6 +83,13 @@ const STATE = {
       description:
         "Uma visão Astrológica, Astronômica e Neurocientífica de uma das obras mais famosas de Leonardo da Vinci",
     },
+    {
+      title: "Estrela",
+      subtitle: "dos Negócios",
+      href: "http://negocios.geracaoar.com.br/",
+      description:
+        "A Geometria dos Negócios em suas diferentes fases: ideia, projeto, negócio e movimento",
+    },
   ],
 };
 
