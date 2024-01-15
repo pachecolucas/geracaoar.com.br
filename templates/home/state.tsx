@@ -30,7 +30,7 @@ const STATE = {
     {
       title: "Setênios",
       subtitle: "As fases da vida a cada 7 anos",
-      href: "https://setenios.geracaoar.com.br/",
+      href: "https://setenios.vercel.app/",
       description:
         "Uma visão esclarecedora dos ciclos da vida e o que muda a cada 7, 14 e 28 anos conforme a Nova Ordem dos 4 Elementos",
     },
@@ -65,7 +65,7 @@ const STATE = {
     {
       title: "Metanoia",
       subtitle: "O processo de amadurecimento",
-      href: "http://metanoia.geracaoar.com.br",
+      href: "http://metanoia2.vercel.app/",
       description:
         "Entenda o processo geral de amadurecimento dos seres humanos através de um gráfico simples e revelador",
     },
@@ -79,14 +79,14 @@ const STATE = {
     {
       title: "Santa Ceia",
       subtitle: "E o Ser Integral",
-      href: "http://santaceia.geracaoar.com.br/",
+      href: "http://santaceia.vercel.app/",
       description:
         "Uma visão Astrológica, Astronômica e Neurocientífica de uma das obras mais famosas de Leonardo da Vinci",
     },
     {
       title: "Estrela",
       subtitle: "dos Negócios",
-      href: "http://negocios.geracaoar.com.br/",
+      href: "https://estrela-dos-negocios.vercel.app/",
       description:
         "A Geometria dos Negócios em suas diferentes fases: ideia, projeto, negócio e movimento",
     },
