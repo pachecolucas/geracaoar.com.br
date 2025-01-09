@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <Wrapper>
       <h1>
-        <img src="/assets/logo.svg" alt="Geração Ar" />
+        <img src="/assets/logo2.svg" alt="Era da Sabedoria" />
       </h1>
 
       <Items>
@@ -26,8 +26,10 @@ const Wrapper = styled.div`
   h1 {
     text-align: center;
     img {
+      width: 100%;
       filter: invert(1);
-      width: 200px;
+      max-width: 200px;
+      padding: 20px;
     }
   }
 `;
@@ -38,19 +40,21 @@ const Items = styled.div`
   gap: 12px;
 `;
 const Item = styled.a`
+  background: #191919;
   text-align: center;
   text-decoration: none;
   padding: 20px;
   /* background: white; */
   border-radius: 5px;
   color: white;
-  border: 1px solid white;
+  border: 1px solid hsla(0, 0%, 100%, 0.08);
   transition: all 0.2s;
   font-weight: bold;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
+  box-shadow: 0 2px 10px #0005;
   h2 {
     font-size: 1.4em;
   }
@@ -58,8 +62,9 @@ const Item = styled.a`
     font-size: 1em;
   }
   &:hover {
-    background: white;
-    color: black;
+    background: #111;
+    scale: 1.01;
+    box-shadow: 0 5px 10px #0005;
   }
   small {
     margin-top: 10px;
