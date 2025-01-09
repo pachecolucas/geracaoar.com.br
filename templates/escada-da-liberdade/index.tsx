@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import degraus from "./degraus.svg";
+import imagem from "./imagem.svg";
 
 export default function Index() {
   return (
     <Wrapper>
-      <img src={degraus.src} alt="" />
+      <img src={imagem.src} alt="" />
     </Wrapper>
   );
 }

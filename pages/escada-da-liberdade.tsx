@@ -1,5 +1,5 @@
 import BasicLayout from "layout/default";
-import Template from "templates/degraus-da-vida-capitalista";
+import Template from "templates/escada-da-liberdade";
 
 const Page = () => {
   return (

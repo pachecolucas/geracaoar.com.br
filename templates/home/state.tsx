@@ -91,11 +91,11 @@ const STATE = {
         "A Geometria dos Negócios em suas diferentes fases: ideia, projeto, negócio e movimento",
     },
     {
-      title: "Degraus",
-      subtitle: "da Vida Capitalista",
-      href: "/degraus-da-vida-capitalista",
+      title: "Escada",
+      subtitle: "da Liberdade",
+      href: "/escada-da-liberdade",
       description:
-        "O caminho do sucesso econômico na sociedade capitalista que explica porque 90% do dinheiro se concetra na mão de 10% das pessoas",
+        "O caminho do sucesso econômico na sociedade capitalista que explica porque 90% do dinheiro se concentra na mão de 10% das pessoas e como resolver este dilema ético",
     },
   ],
 };
